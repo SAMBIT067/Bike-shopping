@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(112, 110, 124);
+        }
+       
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;  
+        }
+        #container{
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+        }
+        ul li{
+            display: inline;
+            padding: 80px;
+            color: aliceblue;
+            font-size: 25px;
+        }
+        ul{
+            background-color: rgb(62, 62, 69);
+        }
+        #sam{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        #container2{
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 170px;
+            padding-top: 10px;
+            
+        }
+        .i1{
+            margin-right:50px ;
+            margin-bottom:40px;
+            border: 2px solid black;
+            height: 400px;
+            box-shadow: 10px 10px 10px rgb(19, 12, 9);
+            border-radius: 5px;
+            background-color: rgb(61, 64, 79);
+            
+        }
+        .i5{
+            margin-right:50px ;
+            margin-bottom:40px;
+            border: 2px solid black;
+            width: 355px;
+            height: 400px;
+            box-shadow: 10px 10px 10px rgb(19, 12, 9);
+            border-radius: 5px;
+            background-color: rgb(61, 64, 79);
+        }
+        
+        .p1{
+            text-align: center;
+            position: relative;
+            top: 30px;
+            color: aliceblue;
+            font-family: cursive;
+        }
+        button{
+            position: relative;
+            top: 50px;
+            left:105px;
+            width: 150px;
+            height: 25px;
+            transition: all ease-in ;
+        }
+        button:hover{
+            background-color: aqua;
+            height: 30px;
+        
+            width: 160px;
+        }
+        .e{
+            width: 200px;
+            height: 50px;
+            background-color: azure;
+            position: relative;
+            left: 700px;
+            top: 30px;
+            text-align: center;
+            border-radius: 5px;
+            padding-top: 10px;
+            margin-bottom: 70px;
+            font-family: fantasy;
+            font-size: 20px;
+        
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <ul>
+            <li id="sam">SAM BIKES</li>
+            <a href="assignment3.html"><li>Home</li></a>
+            <a href=""><li>Service</li></a>
+            <a href="assignment5.html"><li>Contact</li></a>
+            <a href="assignment1.html"><li>sign out</li></a>
+        </ul>
+    </div>
+    <div id="container2">
+        <div class="i1">
+            <img src="https://bd.gaadicdn.com/processedimages/hero-motocorp/hero-motocorp-splendor/source/hero-motocorp-splendor6594efca3fa93.jpg" alt="image" width="350px" height="200px">
+            <p class="p1">Company: Hero</p>
+            <p class="p1">Name: Splendor</p>
+            <p class="p1">Price: Rs.76,856 - 77,506</p>
+            <button>buy</button>
+            
+        </div>
+        <div class="i1">
+            <img src="data:image/jpeg;base64,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" alt="image" width="350px" height="200px">
+            <p class="p1">Company: Yamaha</p>
+            <p class="p1">Name: R15 V4</p>
+            <p class="p1">Price: Rs.1.84 - 2.10 Lakh</p>
+            <button>buy</button>
+        </div>
+        <div class="i1">
+            <img src="https://imgd.aeplcdn.com/664x374/bw/models/kawasaki-z1000-standard20190724175915.jpg?q=80" alt="image" width="350px" height="200px">
+            <p class="p1">Company: Kawasaki</p>
+            <p class="p1">Name: Z1000</p>
+            <p class="p1">Price: Rs 15 - 16 Lakh</p>
+            <button>buy</button>
+            
+        </div>
+        <div class="i1">
+            <img src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fbike-images%2Fgallery%2Fsuzuki%2Fhayabusa%2Fexterior%2F2021_suzuki_hayabusa.jpg%3Fv%3D2021-04-28&w=640&q=75" alt="image" width="350px" height="200px">
+            <p class="p1">Company: Suzuki</p>
+            <p class="p1">Name: Hayabusa</p>
+            <p class="p1">Price: Rs.16.99 Lakh</p>
+            <button>buy</button>
+        </div>
+        <div class="i5">
+            <img src="https://www.roadracingworld.com/wp-content/uploads/2022/07/DUCATI_PANIGALE_V4S_STATIC_001_UC355519_High_1657552868-e1657552884731.jpg" alt="image" width="350px" height="200px">
+            
+            <p class="p1">Company: Ducati</p>
+            <p class="p1">Name: Panigale V4</p>
+            <p class="p1">Price: Rs.27.73 - 69.99 Lakh</p>
+            <button>buy</button>
+        </div>
+        <div class="i1">
+            <img src="https://www.cycleworld.com/resizer/XQP1KJ7zZVY-NlKlxHv9ezFxLnc=/arc-photo-octane/arc3-prod/public/A25E4DK5IK3A6VDPETJHSSMHXY.jpg" alt="image" width="350px" height="210px">
+            <p class="p1">Company: BMW</p>
+            <p class="p1">Name: S 1000 RR</p>
+            <p class="p1">Price: Rs.20.75 - 25.25 Lakh</p>
+            <button>buy</button>
+        </div>
+
+    </div>
+    <div class="e"><a href="assignment5.html">EXIT</a> </div>
+</body>
+</html>
